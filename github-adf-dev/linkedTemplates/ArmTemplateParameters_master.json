@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "github-adf-dev"
+		},
+		"LS_AzureBlobStorage_properties_typeProperties_connectionString_secretName": {
+			"value": "blob"
+		},
+		"LS_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://keyvaluts-dev.vault.azure.net/"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_connectionString_secretName": {
+			"value": "SQL"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
